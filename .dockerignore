@@ -1,0 +1,9 @@
+# .dockerignore (place in the repo root / workspace root)
+data/
+data/**      # ignore runtime DB directory
+*.log
+*.pyc
+__pycache__/
+venv/
+.env
+.DS_Store
