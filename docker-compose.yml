@@ -1,8 +1,10 @@
 version: "3.8"
 
 services:
-  web:
-    image: "mdfurqhan/notes-app:latest"
+nginx:
+build: ./nginx
+image: nginx
+container_name: "nginx_count"
     ports:
       - "80:80"
     restart: always
